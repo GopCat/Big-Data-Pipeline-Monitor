@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+
+# Virtual environment
+.venv/
+backend/.venv/
+
+# Environment files
+.env
+.env.*
+backend/.env
+
+# Database
+*.db
+backend/database.db
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# Build / dist
+dist/
+build/
+frontend/dist/
+
+# Logs
+*.log
+
+# Vite
+.vite/
+
+# IDE
+.vscode/
+.idea/
+
+# Lock / cache
+.pytest_cache/
+.mypy_cache/
