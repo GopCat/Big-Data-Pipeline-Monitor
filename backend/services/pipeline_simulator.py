@@ -10,7 +10,7 @@ from schemas.run_step import RunStepCreate, RunStepUpdate
 from services import run_step_service
 
 
-MIN_DURATION_SECONDS = 20
+MIN_DURATION_SECONDS = 50
 MAX_DURATION_SECONDS = 120
 SUCCESS_PROBABILITY = 0.7
 MIN_RECORDS = 500

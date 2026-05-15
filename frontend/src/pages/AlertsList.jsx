@@ -34,7 +34,7 @@ function AlertsList() {
 
     const interval = setInterval(() => {
       fetchAlerts(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);

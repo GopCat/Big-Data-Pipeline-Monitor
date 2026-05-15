@@ -75,7 +75,7 @@ function RunsList() {
 
     const interval = setInterval(() => {
       fetchRuns(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
